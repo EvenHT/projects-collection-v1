@@ -1,0 +1,174 @@
+/* Kodet av: Benedikte Dybsjord, kandidatnummer: 1626 */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* NAVIGATION BAR AND MENU */
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(255,255,238);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: rgb(90, 177, 174);
+
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: rgb(37, 2, 65);
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid rgb(236, 120, 57);
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: rgb(88, 44, 20);
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+}
+.signup a:hover{
+	background-color: rgba(54, 199, 221, 0.179);
+	transition: 0.6s;
+}
+
+/* BACKGROUND */
+.background{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    background: linear-gradient(rgb(242, 235, 235), rgb(128, 195, 119));
+	background-position: center;
+	background-size: cover;
+}
+
+/* HEADING AND PARAGRAPH VICTORIA */
+.heading {
+	position: absolute;
+	top: 15%;
+	width: 50%;
+	color: rgb(124, 121, 121);
+	text-align: center;
+}
+.heading h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+/* PICTURE ISLAND */
+.imgIsland img{
+	position: absolute;
+	top: 48%;
+	left: 4%;
+	height: 35%;
+	border-radius: 10px;
+}
+
+.imgIsland img:hover{
+	transform: scaleX(-1);
+	box-shadow: 4px 7px rgb(139, 170, 100);
+}
+
+/* PICTURE PARK */
+.imgPark img{
+	position: absolute;
+	top: 48%;
+	left: 36.5%;
+	height: 35%;
+	border-radius: 10px;
+}
+
+.imgPark img:hover{
+	transform: scaleX(-1);
+	box-shadow: 4px 7px rgb(139, 170, 100);
+}
+
+/* PICTURE ROAD */
+.imgRoad img{
+	position: absolute;
+	top: 48%;
+	left: 72%;
+	height: 35%;
+	border-radius: 10px;
+}
+
+.imgRoad img:hover{
+	transform: scaleX(-1);
+	box-shadow: 4px 7px rgb(139, 170, 100);
+}
+
+/* PARAGRAPH ISLAND */
+#islandParagraph{
+	position: absolute;
+	top: 85%;
+	left: 4%;
+	padding: 1%;
+	background-color: rgb(255,255,255);
+	border-radius: 5px;
+	width: 23.4%;
+}
+
+/* PARAPGRAPH PARK */
+#parkParagraph{
+	position: absolute;
+	top: 85%;
+	left: 36.5%;
+	padding: 1%;
+	background-color: rgb(255,255,255);
+	border-radius: 5px;
+	width: 26.3%;
+}
+
+/* PARAGRAPH ROAD */
+#roadParagraph{
+	position: absolute;
+	top: 85%;
+	left: 72%;
+	padding: 1%;
+	background-color: rgb(255,255,255);
+	border-radius: 5px;
+	width: 23.4%;
+}
+
+/* HEADING ISLAND */
+#islandHeading{
+	position: absolute;
+	top: 43%;
+	left: 11.5%;
+	font-size: 25px;
+	color: rgb(107, 105, 105);
+}
+
+/* HEADING PARK */
+#parkHeading{
+	position: absolute;
+	top: 43%;
+	left: 39%;
+	font-size: 25px;
+	color: rgb(107, 105, 105);
+}
+
+/* HEADING ROAD */
+#roadHeading{
+	position: absolute;
+	top: 43%;
+	left: 77%;
+	font-size: 25px;
+	color: rgb(107, 105, 105);
+}

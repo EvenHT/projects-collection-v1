@@ -1,0 +1,25 @@
+#inputCol{
+    height: 100%;
+}
+.passwordContainer{
+    margin-bottom: 100px;
+}
+.btn-custom {
+    width: 200px;
+    height: 100px;
+
+    font-size: 30px;
+    
+    border: none;
+    color: white;
+}
+
+#button1 {
+    background-color: #5FFF51;
+    
+}
+
+#button2 {
+    background-color: #FF5454;
+    
+}

@@ -1,0 +1,53 @@
+.row-test {
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#col-stemmevalg {
+    height: 100%;
+}
+
+.top-row {
+    height: 30%;
+}
+
+.bottom-row {
+    height: 70%;
+}
+
+.stemmeBox {
+    width: 140px;
+    height: 140px;
+    background-color: aqua;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+    border-radius: 30px;
+
+    font-size: 70px;
+}
+
+#stemmeHeaderBoble{
+    width: 400px;
+    height: 100px;
+
+    border-radius: 30px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+    background-color: #FF5454 ;
+}
+#stemmeHeader{
+    height: 100%;
+}
+#boxA{
+ background-color: #5FFF51;
+}
+#boxB{
+    background-color: #2079FF;
+}
+#boxC{
+    background-color: #FFA620;
+}
+#boxD{
+    background-color: #F151FF;
+}

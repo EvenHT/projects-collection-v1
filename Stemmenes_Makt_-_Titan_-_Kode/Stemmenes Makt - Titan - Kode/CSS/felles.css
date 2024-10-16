@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+#device-frame{
+    width: 932px;
+    height: 430px;
+    margin: auto;
+    margin-top: 100px;
+
+
+    
+    background-color: #FF6C6C;
+}
+
+input::placeholder {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kodeInputBoble{
+    width: 250px;
+    height: 40px;
+    background-color: #D9D9D9;
+    
+}
+
+  

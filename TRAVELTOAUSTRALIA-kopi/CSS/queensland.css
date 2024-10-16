@@ -1,0 +1,138 @@
+/* Kodet av: Andrea Skalstad, kandidatnummer: 1259 */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+}
+/* NAVIGATION BAR AND MENU */
+.navbar{
+    position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: rgb(255,255,238);;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    color: rgb(90, 177, 174); 
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: rgb(37, 2, 65);
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid rgb(236, 120, 57);
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: rgb(88, 44, 20);
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+}
+.signup a:hover{
+	background-color: rgba(54, 199, 221, 0.179);
+	transition: 0.6s;
+}
+
+/* BACKGROUND */
+.background{
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+	background: linear-gradient(rgb(229, 225, 225), rgb(81, 180, 202));
+}
+
+/* HEADING QUEENSLAND */
+.heading h1{
+    position: absolute;
+    top: 16%;
+    left: 14%;
+    font-size: 40px;
+    color: rgb(20, 20, 20);
+}
+
+/* PICTURE REEF */
+.imgReef img{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    height: 37%;
+    max-width: 100%;
+    cursor: pointer;
+    box-shadow: 8px 12px rgb(135, 192, 216);
+    border-radius: 10px;
+}
+.imgReef img:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+/* HEADING REEF */
+#reefHeading{
+    position: absolute;
+    top: 15%;
+    left: 67%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(255,255,255);
+    
+}
+
+/* PARAGRAPH REEF */
+#reefParagraph{
+    position: absolute;
+    top: 60%;
+    right: 9.6%;
+    padding: 1%;
+    width: 32%;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/* PICTURE ISLAND */
+.imgIsland img{
+    border-radius: 10px;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+    height: 37%;
+    box-shadow: 8px 12px rgb(135, 192, 216);
+   
+}
+.imgIsland img:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+/* HEADING ISLAND */
+#islandHeading{
+    position: absolute;
+    top: 93%;
+    left: 18%;
+    font-size: 25px;
+    color: rgb(255,255,255);
+}
+
+/* PARAGRAPH ISLAND */
+#islandParagraph{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 32%;
+    padding: 1%;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: #FF6C6C;
+}
+#qrinput{
+    width: 250px;
+}
+.playerDiv{
+    width: 600px;
+    height: 400px;
+
+    border: 1px black;
+    background-color: rgb(255, 248, 239);
+}
